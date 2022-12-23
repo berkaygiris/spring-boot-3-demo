@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: spring-boot-3-demo
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /
+
+management:
+  endpoints:
+    web:
+      base-path: /_monitoring
+      exposure:
+        include: '*'
